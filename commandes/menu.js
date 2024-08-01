@@ -31,7 +31,7 @@ Hamza({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 let infoMsg =  `
-╭────〖BYTE-MD-LITE〗────╮
+╭────〖MILTON-MD-V3〗────╮
 │﹄ *Préfix* : ${s.PREFIXE}
 │﹄ *User* : ${s.OWNER_NAME}
 │﹄ *Mode* : ${mode}
@@ -40,13 +40,13 @@ let infoMsg =  `
 │﹄ *Time* : ${temps} 
 │﹄ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │﹄ *Platform* : ${os.platform()}
-│﹄ *Developer* : 𝐻𝒶𝓂𝓏𝒶
-│﹄ *Version* : v.lite
-╰─────{*TalkDrove*}─────o: \n\n`;
+│﹄ *Developer* : MILTON
+│﹄ *Version* : v.v3
+╰─────{*MILTON*}─────o: \n\n`;
 
   let menuMsg=`  
 
-*BYTE-MD Commands :*
+*Milton-MD Commands :*
 ◇                             ◇
 `;
 
@@ -57,7 +57,7 @@ let infoMsg =  `
  *|*${s.PREFIXE} ${cmd}`;
         }
         menuMsg += `
-*╰═════════════⊷* \n`
+*╰═════Milton Robot════════⊷* \n`
     }
 
     menuMsg += `
