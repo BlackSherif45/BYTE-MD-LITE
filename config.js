@@ -19,7 +19,7 @@ module.exports = {
   author:  process.env.PACK_AUTHER ||  'BYTE-MD',
   packname:  process.env.PACK_NAME || 'Miltom Technologies',
   
-  botname:   process.env.BOT_NAME === undefined ? "MILTON-MD" : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? "MILTON-MD" : process.env.RAYMOND,
   ownername: process.env.OWNER_NAME === undefined ? 'TalkDrove' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
